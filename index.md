@@ -6,15 +6,18 @@ page_sections:
 - template: navigation-header-w-button
   block: header-2
   logo: "/uploads/2021/03/26/logo_size.jpg"
-  navigation: []
+  navigation:
+  - link: ''
+    link_text: ''
   cta:
-    url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
-    button_text: Import
+    url: ''
+    button_text: ''
 - template: hero-banner-w-image
   block: hero-2
   slug: features
   headline: My cryptowallets<br>
-  content: From this page you can see my cryptoaddresses
+  content: 'From this page you can see my cryptoaddresses<br>ETH: 0x42C3d0951BF2ac4be0f75AB0f1BC3f3E8239fb01
+    or Schilder.eth<br>BNB: 0x42C3d0951BF2ac4be0f75AB0f1BC3f3E8239fb01<br>ATOM: cosmos16nmnccxkj4t7vnq2an5y4f4ygz0kuzrujkl9v4<br><br><br>'
   cta:
     enabled: false
     url: https://github.com/forestryio/ubuild-jekyll
@@ -60,8 +63,8 @@ page_sections:
   slug: blocks
 - template: detail-content
   block: text-1
-  headline: My decentralized ethereum website
-  content: "<p>This domain is also my ethereum adress</p>"
+  headline: My decentralized Cryptowebsite
+  content: "<p>This domain is also my Ethereum adress.</p><p></p>"
 - template: simple-footer
   block: footer-1
   content: Made by CB
